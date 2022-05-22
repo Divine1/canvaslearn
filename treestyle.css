@@ -13,29 +13,24 @@ body{
 }
 .container{
     width: 100%;
-    /* min-height: 100vh; */
     position: relative;
     display: flex;
-    
-    
 }
 .treecontainer{
-    /* border-left: 1px solid white; */
     height: auto;
     position: relative;
     width: 80%;
     margin: 0 auto;
-    /* background-color: grey; */
-    
     max-width: 800px;
+    
 }
 .treecontainer::before{
     content: '';
     position: absolute;
     height: 100%;
     width: 5px;
-    left: 3%;
-    top: 0px;
+    left: 0%;
+    /* top: 0%; */
     background-color: #b35d50;
 }
 ul{
@@ -43,8 +38,6 @@ ul{
 }
 ul li{
     width: 50%;
-    /* padding: 0.7rem; */
-    
     position: relative;
 }
 ul li .content{
